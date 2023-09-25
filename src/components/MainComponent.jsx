@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
     faLaravel,
     faVuejs,
@@ -8,11 +8,29 @@ import {
     faHtml5,
     faCss3,
     faGithub,
-} from "@fortawesome/free-brands-svg-icons";
-import SkillComponent from "./SkillComponent";
+} from '@fortawesome/free-brands-svg-icons';
+import SkillComponent from './SkillComponent';
 
 class MainComponent extends React.Component {
+
+    skills = () => {
+        return [
+            { icon: faLaravel, name: "Laravel" },
+            { icon: faVuejs, name: "Vue.js" },
+            { icon: faJsSquare, name: "JavaScript" },
+            { icon: faPhp, name: "Php" },
+            { icon: faReact, name: "React" },
+            { icon: faHtml5, name: "HTML" },
+            { icon: faCss3, name: "CSS" },
+            { icon: faGithub, name: "GitHub" },
+        ];
+    }
+    
     render() {
+        const skillsList = this.skills().map((skill) => (
+            <SkillComponent key={skill.name} icon={skill.icon} name={skill.name} />
+        ));
+
         return (
             <main>
                 <div className='mt-10 mx-auto max-w-7xl'>
@@ -32,14 +50,7 @@ class MainComponent extends React.Component {
                 </div>
                 <div className='w-full flex justify-center flex-wrap'>
                     <ul className='flex'>
-                        <SkillComponent icon={faLaravel} name='Laravel' />
-                        <SkillComponent icon={faVuejs} name='Vue.js' />
-                        <SkillComponent icon={faJsSquare} name='JavaScript' />
-                        <SkillComponent icon={faPhp} name='PHP' />
-                        <SkillComponent icon={faReact} name='React' />
-                        <SkillComponent icon={faHtml5} name='HTML' />
-                        <SkillComponent icon={faCss3} name='CSS' />
-                        <SkillComponent icon={faGithub} name='GitHub' />
+                        {skillsList}
                     </ul>
                 </div>
             </main>
