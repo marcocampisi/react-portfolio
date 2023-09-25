@@ -43,11 +43,16 @@ class MainComponent extends React.Component {
             githubLink: "https://github.com/myusername/anotherproject",
             description: "Questo è un altro progetto che ho realizzato.",
           },
+          {
+            title: "Un altro progetto",
+            githubLink: "https://github.com/myusername/anotherproject",
+            description: "Questo è un altro progetto che ho realizzato.",
+          }
         ]
 
         return (
             <main>
-                <div className='mt-10 mx-auto max-w-7xl'>
+                <div className='mt-10 mx-auto max-w-7xl px-5'>
                     <h1 className='text-5xl font-extrabold'>
                         Ciao, sono <span className='text-red-400'>Marco.</span> Sono un <span className='text-green-400'>Full-stack Web Developer.</span>
                     </h1>
@@ -57,22 +62,23 @@ class MainComponent extends React.Component {
                         passione che metto nel mio lavoro.
                     </p>
                 </div>
-                <div className='flex w-full border-t-[1px] mt-10'>
+                <div className='flex flex-col w-full border-t-[1px] mt-10 px-5'>
                     <h2 className='text-4xl font-bold mx-auto my-4'>
                         Le tecnologie che uso.
                     </h2>
+                    <div className='w-full flex justify-center'>
+                        <ul className='flex flex-wrap justify-center'>
+                            {skillsList}
+                        </ul>
+                    </div>
                 </div>
-                <div className='w-full flex justify-center flex-wrap'>
-                    <ul className='flex'>
-                        {skillsList}
-                    </ul>
-                </div>
-                <div className="flex flex-col w-full border-t-[1px] mt-10">
+                
+                <div className="flex flex-col w-full border-t-[1px] mt-10 px-5">
                     <h2 className="text-4xl font-bold mx-auto my-4">
                         I miei progetti.
                     </h2>
+                    <ProjectsContainer projects={projectsList} />
                 </div>
-                <ProjectsContainer projects={projectsList} />
             </main>
         );
     }
