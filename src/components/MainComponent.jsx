@@ -13,6 +13,7 @@ import {
 import SkillComponent from './SkillComponent';
 import ProjectsContainer from './ProjectsContainer';
 import AboutMe from './AboutMeComponent';
+import Contacts from './ContactComponent';
 
 class MainComponent extends React.Component {
 
@@ -84,6 +85,12 @@ class MainComponent extends React.Component {
                         I miei progetti.
                     </h2>
                     <ProjectsContainer projects={projectsList} />
+                </div>
+                <div className="fmt-10 mx-auto max-w-7xl px-5 mt-20">
+                    <h2 className="text-4xl font-bold mx-auto my-4">
+                        Contattami!
+                    </h2>
+                    <Contacts />
                 </div>
             </main>
         );
