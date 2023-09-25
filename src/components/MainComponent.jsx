@@ -7,7 +7,7 @@ import {
     faReact,
     faHtml5,
     faCss3,
-    faGithub,
+    faGit,
     faPython
 } from '@fortawesome/free-brands-svg-icons';
 import SkillComponent from './SkillComponent';
@@ -25,7 +25,7 @@ class MainComponent extends React.Component {
             { icon: faReact, name: "React" },
             { icon: faHtml5, name: "HTML" },
             { icon: faCss3, name: "CSS" },
-            { icon: faGithub, name: "GitHub" },
+            { icon: faGit, name: "Git" },
             { icon: faPython, name: "Python" },
         ];
     }
