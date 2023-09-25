@@ -1,39 +1,48 @@
-function Contacts() {
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faEnvelope,
+    faAddressCard,
+    faMap,
+    faFile
+} from "@fortawesome/free-regular-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+
+function ContactComponent() {
     return (
-        <div className='mt-10'>
-            <h2 className='text-3xl font-bold mb-4'>Contatti</h2>
-            <div className='bg-gray-200 p-6 rounded-lg shadow-md'>
-                <p className='text-gray-700'>
-                    Per contattarmi, puoi inviare una e-mail a:{" "}
-                    <a href='mailto:tuo@email.com' className='text-blue-500'>
-                        tuo@email.com
-                    </a>
-                    .
-                </p>
-                <p className='text-gray-700 mt-2'>
-                    Puoi anche trovarmi su{" "}
-                    <a
-                        href='https://github.com/tuo-username'
-                        target='_blank'
-                        rel='noopener noreferrer'
-                        className='text-blue-500'
-                    >
-                        GitHub
-                    </a>{" "}
-                    e{" "}
-                    <a
-                        href='https://linkedin.com/in/tuo-nome'
-                        target='_blank'
-                        rel='noopener noreferrer'
-                        className='text-blue-500'
-                    >
-                        LinkedIn
-                    </a>
-                    .
-                </p>
+        <>
+            <div className='container w-full mx-auto mt-6 grid grid-cols-1 md:grid-cols-2 gap-6'>
+                <div className='shadow-md p-6 border-[1px] flex flex-col justify-between h-full'>
+                    <h3 className='text-xl font-semibold mb-4'>Recapiti</h3>
+                    <div className='flex items-center mb-4'>
+                        <FontAwesomeIcon icon={faEnvelope} className='mr-2' />
+                        <p>Email: marco.campisi@outlook.it</p>
+                    </div>
+                    <div className='flex items-center mb-4'>
+                        <FontAwesomeIcon
+                            icon={faAddressCard}
+                            className='mr-2'
+                        />
+                        <p>Telefono: +39 342 1920049</p>
+                    </div>
+                    <div className='flex items-center'>
+                        <FontAwesomeIcon icon={faMap} className='mr-2' />
+                        <p>Indirizzo: Via Silvio Pellico 8, Noto (SR)</p>
+                    </div>
+                </div>
+                <div className='shadow-md p-6 border-[1px] flex flex-col justify-between h-full'>
+                    <h3 className='text-xl font-semibold mb-4'>Esperienze</h3>
+                    <div className='flex items-center mb-4'>
+                        <FontAwesomeIcon icon={faLinkedin} className='mr-2 h-16 w-16' />
+                        <a href="" className="text-xl">Il mio Linkedin</a>
+                    </div>
+                    <div className='flex items-center mb-4'>
+                        <FontAwesomeIcon icon={faFile} className='mr-2 h-16 w-16' />
+                        <a href="" className="text-xl">Il mio CV</a>
+                    </div>
+                </div>
             </div>
-        </div>
+        </>
     );
 }
 
-export default Contacts;
+export default ContactComponent;

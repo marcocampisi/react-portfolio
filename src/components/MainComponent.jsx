@@ -58,7 +58,7 @@ class MainComponent extends React.Component {
             <main>
                 <div className='mt-10 mx-auto max-w-7xl px-5'>
                     <h1 className='text-5xl font-extrabold'>
-                        Ciao, sono <span className='text-red-400'>Marco.</span> Sono un <span className='text-green-400'>Full-stack Web Developer.</span>
+                        Ciao, sono <span className='text-red-400'>Marco</span>, un <span className='text-green-400'>Full-stack Web Developer.</span>
                     </h1>
                     <p className='font-medium mt-5'>
                         Esplora il mio portfolio per scoprire più informazioni
@@ -86,7 +86,7 @@ class MainComponent extends React.Component {
                     </h2>
                     <ProjectsContainer projects={projectsList} />
                 </div>
-                <div className="fmt-10 mx-auto max-w-7xl px-5 mt-20">
+                <div className="fmt-10 mx-auto w-full px-5 mt-20 text-center">
                     <h2 className="text-4xl font-bold mx-auto my-4">
                         Contattami!
                     </h2>
