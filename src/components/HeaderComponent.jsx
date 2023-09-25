@@ -1,30 +1,23 @@
-import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
-class HeaderComponent extends React.Component {
-    render() {
-        return (
-            <header>
-                <nav className='border-b-[1px]'>
-                    <div className='flex'>
-                        <ul className='font-medium flex w-full justify-center my-2'>
-                            <li className='m-4 hover:scale-110 transition'>
-                                <a href=''>Home</a>
-                            </li>
-                            <li className='m-4 hover:scale-110 transition'>
-                                <a href=''>Chi sono</a>
-                            </li>
-                            <li className='m-4 hover:scale-110 transition'>
-                                <a href=''>Progetti</a>
-                            </li>
-                            <li className='m-4 hover:scale-110 transition'>
-                                <a href=''>Contatti</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </header>
-        );
-    }
+
+function HeaderComponent() {
+    return (
+        <header className="p-4 flex items-center justify-between">
+            <div className="flex items-center">
+                <img src="logo.png" alt="Logo" className="h-8 w-8 mr-2" />
+                <h1 className="text-lg font-semibold">Marco Campisi</h1>
+            </div>
+
+            <div className="flex items-center">
+                <a href="https://github.com/marcocampisi" className="flex items-center">
+                    <span className="mr-4">Il mio GitHub</span>
+                    <FontAwesomeIcon icon={faGithub} className="h-10"/>
+                </a>
+            </div>
+        </header>
+    );
 }
 
 export default HeaderComponent;

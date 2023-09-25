@@ -8,9 +8,11 @@ import {
     faHtml5,
     faCss3,
     faGithub,
+    faPython
 } from '@fortawesome/free-brands-svg-icons';
 import SkillComponent from './SkillComponent';
 import ProjectsContainer from './ProjectsContainer';
+import AboutMe from './AboutMeComponent';
 
 class MainComponent extends React.Component {
 
@@ -24,6 +26,7 @@ class MainComponent extends React.Component {
             { icon: faHtml5, name: "HTML" },
             { icon: faCss3, name: "CSS" },
             { icon: faGithub, name: "GitHub" },
+            { icon: faPython, name: "Python" },
         ];
     }
     
@@ -61,6 +64,9 @@ class MainComponent extends React.Component {
                         su di me: cosa realizzo, le tecnologie che uso e la
                         passione che metto nel mio lavoro.
                     </p>
+                </div>
+                <div className="mt-10 mx-auto max-w-7xl px-5">
+                    <AboutMe />
                 </div>
                 <div className='flex flex-col w-full border-t-[1px] mt-10 px-5'>
                     <h2 className='text-4xl font-bold mx-auto my-4'>
