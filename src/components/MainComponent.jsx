@@ -10,7 +10,7 @@ import {
     faGithub,
 } from '@fortawesome/free-brands-svg-icons';
 import SkillComponent from './SkillComponent';
-import Projects from './Projects';
+import ProjectsContainer from './ProjectsContainer';
 
 class MainComponent extends React.Component {
 
@@ -31,6 +31,19 @@ class MainComponent extends React.Component {
         const skillsList = this.skills().map((skill) => (
             <SkillComponent key={skill.name} icon={skill.icon} name={skill.name} />
         ));
+
+        const projectsList = [
+            {
+            title: "Il mio progetto",
+            githubLink: "https://github.com/myusername/myproject",
+            description: "Questo è un progetto che ho realizzato per imparare a usare React.",
+          },
+          {
+            title: "Un altro progetto",
+            githubLink: "https://github.com/myusername/anotherproject",
+            description: "Questo è un altro progetto che ho realizzato.",
+          },
+        ]
 
         return (
             <main>
@@ -58,8 +71,8 @@ class MainComponent extends React.Component {
                     <h2 className="text-4xl font-bold mx-auto my-4">
                         I miei progetti.
                     </h2>
-                    <Projects />
                 </div>
+                <ProjectsContainer projects={projectsList} />
             </main>
         );
     }
