@@ -6,7 +6,7 @@ function SkillComponent({ icon, name }) {
         <>
             <li className='m-5 text-center'>
                 <FontAwesomeIcon icon={icon} className='h-12'/>
-                <p className='font-thin'>{name}</p>
+                <p className='font-mono'>{name}</p>
             </li>
         </>
     );
