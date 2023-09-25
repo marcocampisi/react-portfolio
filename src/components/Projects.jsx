@@ -1,4 +1,4 @@
-/* eslint-disable react-hooks/exhaustive-deps */
+0; /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable react/prop-types */
 import { useState, useEffect } from "react";
 import axios from "axios";
@@ -6,17 +6,29 @@ import axios from "axios";
 function Projects() {
     const [projects, setProjects] = useState([]);
     const username = "marcocampisi";
-    const query = {
-        sort: "updated"
-    };
+    const query = "db-first";
 
     useEffect(() => {
         axios
-            .get(`https://api.github.com/users/${username}/repos`, {
-                params: query,
-            })
+            .get(`https://api.github.com/users/${username}/repos`)
             .then((response) => {
-                setProjects(response.data);
+                const projectsNames = response.data.map(
+                    (project) => project.name
+                );
+                const filteredProjects = projectsNames.filter((project) =>
+                    project.includes(query)
+                );
+                const projectsDetails = filteredProjects.map((projectName) => {
+                    const project = response.data.find(
+                        (project) => project.name === projectName
+                    );
+                    return {
+                        name: project.name,
+                        description: project.description,
+                        html_url: project.html_url,
+                    };
+                });
+                setProjects(projectsDetails);
             })
             .catch((error) => {
                 console.error(error);
