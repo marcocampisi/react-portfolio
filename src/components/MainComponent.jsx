@@ -10,6 +10,7 @@ import {
     faGithub,
 } from '@fortawesome/free-brands-svg-icons';
 import SkillComponent from './SkillComponent';
+import Projects from './Projects';
 
 class MainComponent extends React.Component {
 
@@ -53,10 +54,11 @@ class MainComponent extends React.Component {
                         {skillsList}
                     </ul>
                 </div>
-                <div className="flex w-full border-t-[1px] mt-10">
+                <div className="flex flex-col w-full border-t-[1px] mt-10">
                     <h2 className="text-4xl font-bold mx-auto my-4">
                         I miei progetti.
                     </h2>
+                    <Projects username='marcocampisi' />
                 </div>
             </main>
         );
