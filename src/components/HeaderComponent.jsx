@@ -11,6 +11,9 @@ class HeaderComponent extends React.Component {
                                 <a href=''>Home</a>
                             </li>
                             <li className='m-4 hover:scale-110 transition'>
+                                <a href=''>Chi sono</a>
+                            </li>
+                            <li className='m-4 hover:scale-110 transition'>
                                 <a href=''>Progetti</a>
                             </li>
                             <li className='m-4 hover:scale-110 transition'>

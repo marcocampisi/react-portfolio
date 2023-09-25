@@ -35,12 +35,12 @@ class MainComponent extends React.Component {
             <main>
                 <div className='mt-10 mx-auto max-w-7xl'>
                     <h1 className='text-5xl font-extrabold'>
-                        Ciao, sono <span className='text-red-500'>Marco.</span> Sono un <span className='text-green-500'>Full-stack Web Developer.</span>
+                        Ciao, sono <span className='text-red-400'>Marco.</span> Sono un <span className='text-green-400'>Full-stack Web Developer.</span>
                     </h1>
                     <p className='font-medium mt-5'>
                         Esplora il mio portfolio per scoprire più informazioni
                         su di me: cosa realizzo, le tecnologie che uso e la
-                        passione che metto nel mio lavoro. Sono italiano.
+                        passione che metto nel mio lavoro.
                     </p>
                 </div>
                 <div className='flex w-full border-t-[1px] mt-10'>
