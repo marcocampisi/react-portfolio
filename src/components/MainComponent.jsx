@@ -58,7 +58,7 @@ class MainComponent extends React.Component {
                     <h2 className="text-4xl font-bold mx-auto my-4">
                         I miei progetti.
                     </h2>
-                    <Projects username='marcocampisi' />
+                    <Projects />
                 </div>
             </main>
         );
