@@ -1,6 +1,15 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLaravel, faVuejs, faJsSquare, faPhp, faReact, faHtml5, faCss3, faGithub } from "@fortawesome/free-brands-svg-icons";
+import {
+    faLaravel,
+    faVuejs,
+    faJsSquare,
+    faPhp,
+    faReact,
+    faHtml5,
+    faCss3,
+    faGithub,
+} from "@fortawesome/free-brands-svg-icons";
+import SkillComponent from "./SkillComponent";
 
 class MainComponent extends React.Component {
     render() {
@@ -21,40 +30,16 @@ class MainComponent extends React.Component {
                         Le tecnologie che uso.
                     </h1>
                 </div>
-                <div className="w-full flex justify-center">
+                <div className='w-full flex justify-center flex-wrap'>
                     <ul className='flex'>
-                        <li className="m-5 text-center">
-                            <FontAwesomeIcon icon={faLaravel} className="h-12" />
-                            <p className="font-thin">Laravel</p>
-                        </li>
-                        <li className="m-5 text-center">
-                            <FontAwesomeIcon icon={faVuejs} className="h-12" />
-                            <p className="font-thin">Vue.js</p>
-                        </li>
-                        <li className="m-5 text-center">
-                            <FontAwesomeIcon icon={faPhp} className="h-12" />
-                            <p className="font-thin">Php</p>
-                        </li>
-                        <li className="m-5 text-center">
-                            <FontAwesomeIcon icon={faJsSquare} className="h-12" />
-                            <p className="font-thin">JavaScript</p>
-                        </li>
-                        <li className="m-5 text-center">
-                            <FontAwesomeIcon icon={faReact} className="h-12" />
-                            <p className="font-thin">React</p>
-                        </li>
-                        <li className="m-5 text-center">
-                            <FontAwesomeIcon icon={faHtml5} className="h-12" />
-                            <p className="font-thin">HTML</p>
-                        </li>
-                        <li className="m-5 text-center">
-                            <FontAwesomeIcon icon={faCss3} className="h-12" />
-                            <p className="font-thin">CSS</p>
-                        </li>
-                        <li className="m-5 text-center">
-                            <FontAwesomeIcon icon={faGithub} className="h-12" />
-                            <p className="font-thin">GitHub</p>
-                        </li>
+                        <SkillComponent icon={faLaravel} name='Laravel' />
+                        <SkillComponent icon={faVuejs} name='Vue.js' />
+                        <SkillComponent icon={faJsSquare} name='JavaScript' />
+                        <SkillComponent icon={faPhp} name='PHP' />
+                        <SkillComponent icon={faReact} name='React' />
+                        <SkillComponent icon={faHtml5} name='HTML' />
+                        <SkillComponent icon={faCss3} name='CSS' />
+                        <SkillComponent icon={faGithub} name='GitHub' />
                     </ul>
                 </div>
             </main>
