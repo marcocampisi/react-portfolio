@@ -38,27 +38,28 @@ class MainComponent extends React.Component {
 
         const projectsList = [
             {
-            title: "Il mio progetto",
-            githubLink: "https://github.com/myusername/myproject",
-            description: "Questo è un progetto che ho realizzato per imparare a usare React.",
-          },
-          {
-            title: "Un altro progetto",
-            githubLink: "https://github.com/myusername/anotherproject",
-            description: "Questo è un altro progetto che ho realizzato.",
-          },
-          {
-            title: "Un altro progetto",
-            githubLink: "https://github.com/myusername/anotherproject",
-            description: "Questo è un altro progetto che ho realizzato.",
-          }
-        ]
+                title: "Laravel Many to Many",
+                githubLink: "https://github.com/marcocampisi/laravel-many-to-many",
+                description:
+                    "Progetto realizzato durante il corso Boolean sulle relazioni tra modelli in Laravel.",
+            },
+            {
+                title: "Boolflix",
+                githubLink: "https://github.com/marcocampisi/vite-boolflix",
+                description: "Progetto frontend in Vue + Vite che replica il funzionamento della web-app di Netflix.",
+            },
+            {
+                title: "Yu-Gi-Oh",
+                githubLink: "https://github.com/marcocampisi/vite-yu-gi-oh",
+                description: "Semplice web-app che permette di visualizzare un database di carte Yu-Gi-Oh realizzata in Vue + Vite.",
+            },
+        ];
 
         return (
             <main>
                 <div className='mt-10 mx-auto max-w-7xl px-5'>
                     <h1 className='text-5xl font-extrabold'>
-                        Ciao, sono <span className='text-red-400'>Marco</span>, un <span className='text-green-400'>Full-stack Web Developer.</span>
+                        Ciao, sono <span className='text-red-400'>Marco</span>, un <span className='text-green-400'>Full-stack Web Developer</span>
                     </h1>
                     <p className='font-medium mt-5'>
                         Esplora il mio portfolio per scoprire più informazioni
@@ -69,9 +70,9 @@ class MainComponent extends React.Component {
                 <div className="mt-10 mx-auto max-w-7xl px-5">
                     <AboutMe />
                 </div>
-                <div className='flex flex-col w-full border-t-[1px] mt-10 px-5'>
+                <div className='flex flex-col w-full mt-10 px-5'>
                     <h2 className='text-4xl font-bold mx-auto my-4'>
-                        Le tecnologie che uso.
+                        Le tecnologie che uso
                     </h2>
                     <div className='w-full flex justify-center'>
                         <ul className='flex flex-wrap justify-center'>
@@ -80,15 +81,15 @@ class MainComponent extends React.Component {
                     </div>
                 </div>
                 
-                <div className="flex flex-col w-full border-t-[1px] mt-10 px-5">
+                <div className="flex flex-col w-full mt-10 px-5">
                     <h2 className="text-4xl font-bold mx-auto my-4">
-                        I miei progetti.
+                        I miei progetti
                     </h2>
                     <ProjectsContainer projects={projectsList} />
                 </div>
                 <div className="fmt-10 mx-auto w-full px-5 mt-20 text-center">
                     <h2 className="text-4xl font-bold mx-auto my-4">
-                        Contattami!
+                        Contattami
                     </h2>
                     <Contacts />
                 </div>
