@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {  faEnvelope} from "@fortawesome/free-regular-svg-icons";
-import { faPhone, faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 function ContactComponent() {
     return (
@@ -19,13 +19,6 @@ function ContactComponent() {
                     className='text-2xl mb-1 mr-4'
                 />
                 <p>Telefono: +39 342 1920049</p>
-            </div>
-            <div className='flex items-center mx-auto'>
-                <FontAwesomeIcon 
-                    icon={faLocationDot} 
-                    className='text-2xl mb-1 mr-4' 
-                />
-                <p>Indirizzo: Via Silvio Pellico 8, Noto (SR)</p>
             </div>
         </div>
     );

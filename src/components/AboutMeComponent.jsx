@@ -14,10 +14,10 @@ function AboutMe() {
                     className='rounded-full h-52 mr-10 my-10'
                 />
                 <p className='text-lg'>
-                    Mi chiamo Marco Campisi, ho 21 anni e sono uno sviluppatore
-                    web. Amo scoprire nuove tecnologie e creare soluzioni
-                    innovative e immediate. La mia passione è trasformare idee
-                    in realtà digitali e offrire esperienze coinvolgenti online.
+                    Mi chiamo Marco Campisi, ho 21 anni e sono nato e cresciuto in Sicilia. Amo da sempre l&apos;informatica e la tecnologia in generale, scoprire nuovi modi di realizzare
+                    le mie idee e svilupparne di nuove. Il mio campo è lo sviluppo web, <strong>frontend </strong>
+                    e <strong>backend</strong>. Conosco anche <strong>Python</strong> ed ho dimestichezza con i sistemi
+                    informatici in generale.
                 </p>
             </div>
             <div className='w-full flex justify-center mb-10'>

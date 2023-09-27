@@ -41,7 +41,7 @@ class MainComponent extends React.Component {
                 title: "Laravel Many to Many",
                 githubLink: "https://github.com/marcocampisi/laravel-many-to-many",
                 description:
-                    "Progetto realizzato durante il corso Boolean sulle relazioni tra modelli in Laravel.",
+                    "Webapp con frontend in Blade incentrata sulle relazioni tra modelli.",
             },
             {
                 title: "Boolflix",
@@ -49,24 +49,24 @@ class MainComponent extends React.Component {
                 description: "Progetto frontend in Vue + Vite che replica il funzionamento della web-app di Netflix.",
             },
             {
-                title: "Yu-Gi-Oh",
-                githubLink: "https://github.com/marcocampisi/vite-yu-gi-oh",
-                description: "Semplice web-app che permette di visualizzare un database di carte Yu-Gi-Oh realizzata in Vue + Vite.",
+                title: "Portfolio",
+                githubLink: "https://github.com/marcocampisi/react-portfolio",
+                description: "Il codice di questo portfolio, scritto in React.",
+            },
+            {
+                title: "DC Comics",
+                githubLink: "https://github.com/marcocampisi/vite-comics",
+                description: "Progetto frontend in Vue + Vite, replica del sito di DC Comics.",
             },
             {
                 title: "Yu-Gi-Oh",
                 githubLink: "https://github.com/marcocampisi/vite-yu-gi-oh",
-                description: "Semplice web-app che permette di visualizzare un database di carte Yu-Gi-Oh realizzata in Vue + Vite.",
+                description: "Progetto frontend in Vue + Vite che visualizza un database di carte Yu-Gi-Oh.",
             },
             {
-                title: "Yu-Gi-Oh",
-                githubLink: "https://github.com/marcocampisi/vite-yu-gi-oh",
-                description: "Semplice web-app che permette di visualizzare un database di carte Yu-Gi-Oh realizzata in Vue + Vite.",
-            },
-            {
-                title: "Yu-Gi-Oh",
-                githubLink: "https://github.com/marcocampisi/vite-yu-gi-oh",
-                description: "Semplice web-app che permette di visualizzare un database di carte Yu-Gi-Oh realizzata in Vue + Vite.",
+                title: "Boolzapp",
+                githubLink: "https://github.com/marcocampisi/vue-boolzapp",
+                description: "Progetto frontend in Vue + Vite che replica WhatsApp Web.",
             },
         ];
 
@@ -96,7 +96,7 @@ class MainComponent extends React.Component {
                     </div>
                 </div>
                 
-                <div className="flex flex-col w-full mt-10 px-5" id='projects'>
+                <div className="flex flex-col w-full my-10 px-5">
                     <h2 className="text-4xl font-bold mx-auto my-4">
                         I miei progetti
                     </h2>
