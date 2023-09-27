@@ -5,7 +5,7 @@ class FooterComponent extends React.Component {
         return (
             <footer className='mx-4 p-10'>
                 <div className='w-full text-center'>
-                    <span className='text-sm text-gray-500 dark:text-gray-400'>
+                    <span className='text-sm text-black dark:text-gray-400'>
                         © 2023{" "}
                         <span className='hover:underline'>
                             Marco Campisi
