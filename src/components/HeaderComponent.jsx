@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import myPhoto from '../assets/me.jpg';
-import { Link } from 'react-scroll';
 
 function HeaderComponent() {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -29,13 +28,6 @@ function HeaderComponent() {
                     <img src={myPhoto} alt='Logo' className='h-8 w-8 mr-2 rounded-full' />
                     <h1 className='text-lg font-semibold'>Marco Campisi</h1>
                 </div>
-
-                <div className="flex items-center">
-                    <Link to="home" className="font-bold mx-2 cursor-pointer hidden md:block" smooth={true} duration={500}>Home</Link>
-                    <Link to="projects" className="font-bold mx-2 cursor-pointer hidden md:block" smooth={true} duration={500}>Progetti</Link>
-                    <Link to="contacts" className="font-bold mx-2 cursor-pointer hidden md:block" smooth={true} duration={500}>Contatti</Link>
-                </div>
-
                 <div className='flex items-center'>
                     <a
                         href='https://github.com/marcocampisi'

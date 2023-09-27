@@ -53,11 +53,26 @@ class MainComponent extends React.Component {
                 githubLink: "https://github.com/marcocampisi/vite-yu-gi-oh",
                 description: "Semplice web-app che permette di visualizzare un database di carte Yu-Gi-Oh realizzata in Vue + Vite.",
             },
+            {
+                title: "Yu-Gi-Oh",
+                githubLink: "https://github.com/marcocampisi/vite-yu-gi-oh",
+                description: "Semplice web-app che permette di visualizzare un database di carte Yu-Gi-Oh realizzata in Vue + Vite.",
+            },
+            {
+                title: "Yu-Gi-Oh",
+                githubLink: "https://github.com/marcocampisi/vite-yu-gi-oh",
+                description: "Semplice web-app che permette di visualizzare un database di carte Yu-Gi-Oh realizzata in Vue + Vite.",
+            },
+            {
+                title: "Yu-Gi-Oh",
+                githubLink: "https://github.com/marcocampisi/vite-yu-gi-oh",
+                description: "Semplice web-app che permette di visualizzare un database di carte Yu-Gi-Oh realizzata in Vue + Vite.",
+            },
         ];
 
         return (
             <main>
-                <div className='mt-10 mx-auto max-w-7xl px-5' id='home'>
+                <div className='mt-10 mx-auto max-w-7xl px-5'>
                     <h1 className='text-5xl font-extrabold'>
                         Ciao! Sono <span className='text-indigo-400'>Marco</span>, un <span className='text-indigo-400'>Full-Stack Web Developer</span>
                     </h1>
