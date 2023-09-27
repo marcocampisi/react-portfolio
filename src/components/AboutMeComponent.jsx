@@ -4,7 +4,7 @@ function AboutMe() {
     return (
         <>
             <h2 className='text-3xl font-bold mb-4'>Chi sono</h2>
-            <div className='flex sm:flex-col md:flex-row items-center '>
+            <div className='flex flex-col md:flex-row items-center '>
                 <img
                     src={myPhoto}
                     alt=''
