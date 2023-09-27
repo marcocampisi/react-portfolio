@@ -59,7 +59,7 @@ class MainComponent extends React.Component {
             <main>
                 <div className='mt-10 mx-auto max-w-7xl px-5'>
                     <h1 className='text-5xl font-extrabold'>
-                        Ciao, sono <span className='text-red-400'>Marco</span>, un <span className='text-green-400'>Full-stack Web Developer</span>
+                        Ciao! Sono <span className='text-indigo-400'>Marco</span>, un <span className='text-indigo-400'>Full-Stack Web Developer</span>
                     </h1>
                     <p className='font-medium mt-5'>
                         Esplora il mio portfolio per scoprire più informazioni
