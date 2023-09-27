@@ -31,11 +31,11 @@ function ContactComponent() {
                 </div>
                 <div className='shadow-md p-6 border-[1px] flex flex-col justify-between h-full'>
                     <h3 className='text-xl font-semibold mb-4'>Esperienze</h3>
-                    <div className='flex items-center mb-4'>
+                    <div className='flex items-center mt-4 mb-6'>
                         <FontAwesomeIcon icon={faLinkedin} className='mr-2 h-16 w-16' />
                         <a href="" className="text-xl">Il mio Linkedin</a>
                     </div>
-                    <div className='flex items-center mb-4'>
+                    <div className='flex items-center mt-6'>
                         <FontAwesomeIcon icon={faFile} className='mr-2 h-16 w-16' />
                         <a href="" className="text-xl">Il mio CV</a>
                     </div>
