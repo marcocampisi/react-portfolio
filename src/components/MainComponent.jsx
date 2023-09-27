@@ -102,12 +102,7 @@ class MainComponent extends React.Component {
                     </h2>
                     <ProjectsContainer projects={projectsList} />
                 </div>
-                <div className="fmt-10 mx-auto w-full px-5 mt-20 text-center" id='contacts'>
-                    <h2 className="text-4xl font-bold mx-auto my-4">
-                        Contattami
-                    </h2>
-                    <Contacts />
-                </div>
+                <Contacts />
             </main>
         );
     }
