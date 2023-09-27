@@ -5,7 +5,7 @@ import FooterComponent from "./components/FooterComponent";
 
 export default function MainPage() {
     return (
-        <div className="bg-gradient-to-br from-white to-indigo-500 dark:from-black dark:to-purple-800">
+        <div className="bg-gradient-to-br from-white to-indigo-500 dark:from-black dark:to-purple-800 min-h-screen">
             <HeaderComponent />
             <MainComponent />
             <FooterComponent />
