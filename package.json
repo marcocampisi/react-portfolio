@@ -1,8 +1,8 @@
 {
-  "name": "react-portfolio",
+  "name": "marcocampisi.github.io",
   "private": true,
   "version": "0.1.0",
-  "homepage": "https://marcocampisi.github.io/react-portfolio",
+  "homepage": "https://marcocampisi.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",

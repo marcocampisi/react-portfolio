@@ -50,7 +50,7 @@ class MainComponent extends React.Component {
             },
             {
                 title: "Portfolio",
-                githubLink: "https://github.com/marcocampisi/react-portfolio",
+                githubLink: "https://github.com/marcocampisi/marcocampisi.github.io",
                 description: "Il codice di questo portfolio, scritto in React.",
             },
             {
