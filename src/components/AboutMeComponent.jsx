@@ -11,9 +11,9 @@ function AboutMe() {
                 <img
                     src={myPhoto}
                     alt=''
-                    className='rounded-full h-52 mr-10 my-10'
+                    className='rounded-full h-52 mx-auto my-10'
                 />
-                <p className='text-lg'>
+                <p className='text-lg px-6'>
                     Mi chiamo Marco Campisi, ho 21 anni e sono nato e cresciuto in Sicilia. Amo da sempre l&apos;informatica e la tecnologia in generale, scoprire nuovi modi di realizzare
                     le mie idee e svilupparne di nuove. Il mio campo è lo sviluppo web, <strong>frontend </strong>
                     e <strong>backend</strong>. Conosco anche <strong>Python</strong> ed ho dimestichezza con i sistemi
@@ -23,7 +23,7 @@ function AboutMe() {
             <div className='w-full flex justify-center mb-10'>
                 <a
                     href='#_'
-                    className='px-5 py-2.5 relative rounded group overflow-hidden font-medium dark:bg-purple-50 bg-black text-indigo-400 mx-2 block mt-10 -translate-x-3'
+                    className='px-5 py-2.5 relative rounded group overflow-hidden font-medium dark:bg-purple-50 bg-black text-indigo-400 mx-2 block mt-10'
                 >
                     <span className='absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-indigo-400 group-hover:h-full opacity-90'></span>
                     <span className='relative dark:group-hover:text-white group-hover:text-black'>
@@ -32,7 +32,7 @@ function AboutMe() {
                 </a>
                 <a
                     href='#_'
-                    className='px-5 py-2.5 relative rounded group overflow-hidden font-medium dark:bg-purple-50 bg-black text-indigo-400 mx-2 block mt-10 -translate-x-3'
+                    className='px-5 py-2.5 relative rounded group overflow-hidden font-medium dark:bg-purple-50 bg-black text-indigo-400 mx-2 block mt-10'
                 >
                     <span className='absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-indigo-400 group-hover:h-full opacity-90'></span>
                     <span className='relative dark:group-hover:text-white group-hover:text-black'>
