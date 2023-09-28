@@ -8,8 +8,10 @@ import {
     faHtml5,
     faCss3,
     faGit,
-    faPython
+    faPython,
+    faBootstrap
 } from '@fortawesome/free-brands-svg-icons';
+import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 import SkillComponent from './SkillComponent';
 import ProjectsContainer from './ProjectsContainer';
 import AboutMe from './AboutMeComponent';
@@ -19,15 +21,17 @@ class MainComponent extends React.Component {
 
     skills = () => {
         return [
-            { icon: faLaravel, name: "Laravel" },
             { icon: faVuejs, name: "Vue.js" },
-            { icon: faJsSquare, name: "JavaScript" },
-            { icon: faPhp, name: "PHP" },
             { icon: faReact, name: "React" },
+            { icon: faJsSquare, name: "JavaScript" },
+            { icon: faLaravel, name: "Laravel" },
+            { icon: faPhp, name: "PHP" },
             { icon: faHtml5, name: "HTML" },
             { icon: faCss3, name: "CSS" },
+            { icon: faBootstrap, name: "Bootstrap" },
             { icon: faGit, name: "Git" },
             { icon: faPython, name: "Python" },
+            { icon: faDatabase, name: "MySQL" },
         ];
     }
     
