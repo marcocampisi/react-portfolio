@@ -13,6 +13,13 @@ function ContactComponent() {
                 />
                 <p>Email: marco.campisi@outlook.it</p>
             </div>
+            <div className='flex items-center mb-4 mx-auto'>
+                <FontAwesomeIcon 
+                    icon={faPhone} 
+                    className='text-2xl mb-1 mr-4'
+                />
+                <p>Telefono: +39 342 1920049</p>
+            </div>
         </div>
     );
 }
