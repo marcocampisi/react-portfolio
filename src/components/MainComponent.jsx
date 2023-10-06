@@ -16,6 +16,13 @@ import SkillComponent from './SkillComponent';
 import ProjectsContainer from './ProjectsContainer';
 import AboutMe from './AboutMeComponent';
 import Contacts from './ContactComponent';
+import laravelApi from '../assets/laravel-api.png';
+import boolflix from '../assets/vite-boolflix.png';
+import portfolio from '../assets/portfolio.png';
+import viteYugioh from '../assets/vite-yu-gi-oh.png';
+import laravelDcComics from '../assets/laravel-dc-comics.png';
+import midterm from '../assets/proj-html-vuejs.png';
+
 
 class MainComponent extends React.Component {
 
@@ -45,37 +52,37 @@ class MainComponent extends React.Component {
                 title: "Laravel Api",
                 githubLink: "https://github.com/marcocampisi/laravel-api",
                 description: "Webapp con frontend in Blade incentrata sulle relazioni tra modelli di dati.",
-                thumbnail: "src/assets/laravel-api.png",
+                thumbnail: laravelApi,
             },
             {
                 title: "Boolflix",
                 githubLink: "https://github.com/marcocampisi/vite-boolflix",
                 description: "Progetto frontend in Vue + Vite che replica il funzionamento della web-app di Netflix.",
-                thumbnail: "src/assets/vite-boolflix.png",
+                thumbnail: boolflix,
             },
             {
                 title: "Portfolio",
                 githubLink: "https://github.com/marcocampisi/marcocampisi.github.io",
                 description: "Il codice di questo portfolio, scritto in React.",
-                thumbnail: "src/assets/portfolio.png",
+                thumbnail: portfolio,
             },
             {
                 title: "Progetto midterm",
                 githubLink: "https://github.com/marcocampisi/proj-html-vuejs",
                 description: "Progetto realizzato alla fine della prima metà del corso, frontend interamente in Vue + Vite.",
-                thumbnail: "src/assets/proj-html-vuejs.png",
+                thumbnail: midterm,
             },
             {
                 title: "Yu-Gi-Oh",
                 githubLink: "https://github.com/marcocampisi/vite-yu-gi-oh",
                 description: "Progetto frontend in Vue + Vite che visualizza un database di carte Yu-Gi-Oh.",
-                thumbnail: "src/assets/vite-yu-gi-oh.png",
+                thumbnail: viteYugioh,
             },
             {
                 title: "DC Comics",
                 githubLink: "https://github.com/marcocampisi/laravel-dc-comics",
                 description: "Progetto Laravel con frontend in Blade che permette di effettuare operazioni CRUD su un DB di fumetti.",
-                thumbnail: "src/assets/laravel-dc-comics.png",
+                thumbnail: laravelDcComics,
             },
         ];
 
