@@ -42,35 +42,40 @@ class MainComponent extends React.Component {
 
         const projectsList = [
             {
-                title: "Laravel Many to Many",
-                githubLink: "https://github.com/marcocampisi/laravel-many-to-many",
-                description:
-                    "Webapp con frontend in Blade incentrata sulle relazioni tra modelli.",
+                title: "Laravel Api",
+                githubLink: "https://github.com/marcocampisi/laravel-api",
+                description: "Webapp con frontend in Blade incentrata sulle relazioni tra modelli di dati.",
+                thumbnail: "",
             },
             {
                 title: "Boolflix",
                 githubLink: "https://github.com/marcocampisi/vite-boolflix",
                 description: "Progetto frontend in Vue + Vite che replica il funzionamento della web-app di Netflix.",
+                thumbnail: "",
             },
             {
                 title: "Portfolio",
                 githubLink: "https://github.com/marcocampisi/marcocampisi.github.io",
                 description: "Il codice di questo portfolio, scritto in React.",
+                thumbnail: "",
             },
             {
-                title: "DC Comics",
-                githubLink: "https://github.com/marcocampisi/vite-comics",
-                description: "Progetto frontend in Vue + Vite, replica del sito di DC Comics.",
+                title: "Progetto midterm",
+                githubLink: "https://github.com/marcocampisi/proj-html-vuejs",
+                description: "Progetto realizzato alla fine della prima metà del corso, frontend interamente in Vue + Vite.",
+                thumbnail: "",
             },
             {
                 title: "Yu-Gi-Oh",
                 githubLink: "https://github.com/marcocampisi/vite-yu-gi-oh",
                 description: "Progetto frontend in Vue + Vite che visualizza un database di carte Yu-Gi-Oh.",
+                thumbnail: "",
             },
             {
                 title: "Boolzapp",
                 githubLink: "https://github.com/marcocampisi/vue-boolzapp",
                 description: "Progetto frontend in Vue + Vite che replica WhatsApp Web.",
+                thumbnail: "",
             },
         ];
 
