@@ -49,9 +49,9 @@ class MainComponent extends React.Component {
 
         const projectsList = [
             {
-                title: "Laravel Api",
+                title: "Laravel Boolfolio",
                 githubLink: "https://github.com/marcocampisi/laravel-api",
-                description: "Webapp con frontend in Blade incentrata sulle relazioni tra modelli di dati.",
+                description: "Webapp che permette di gestire un portfolio di progetti tramite una dashboard.",
                 thumbnail: laravelApi,
             },
             {
