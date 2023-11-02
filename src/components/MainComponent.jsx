@@ -12,6 +12,7 @@ import {
     faBootstrap
 } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase } from '@fortawesome/free-solid-svg-icons';
+import { tailwindCssIcon } from "../assets/tailwindCssIcon";
 import SkillComponent from './SkillComponent';
 import ProjectsContainer from './ProjectsContainer';
 import AboutMe from './AboutMeComponent';
@@ -35,6 +36,7 @@ class MainComponent extends React.Component {
             { icon: faPhp, name: "PHP" },
             { icon: faHtml5, name: "HTML" },
             { icon: faCss3, name: "CSS" },
+            { icon: tailwindCssIcon, name:"Tailwind"},
             { icon: faBootstrap, name: "Bootstrap" },
             { icon: faGit, name: "Git" },
             { icon: faPython, name: "Python" },
