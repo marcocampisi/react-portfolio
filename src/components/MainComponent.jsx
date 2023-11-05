@@ -19,7 +19,6 @@ import AboutMe from './AboutMeComponent';
 import Contacts from './ContactComponent';
 import laravelApi from '../assets/laravel-api.png';
 import boolflix from '../assets/vite-boolflix.png';
-import portfolio from '../assets/portfolio.png';
 import viteYugioh from '../assets/vite-yu-gi-oh.png';
 import laravelDcComics from '../assets/laravel-dc-comics.png';
 import midterm from '../assets/proj-html-vuejs.png';
@@ -51,33 +50,39 @@ class MainComponent extends React.Component {
 
         const projectsList = [
             {
+                title: "BMusicTeachers - Backend",
+                githubLink: "https://github.com/marcocampisi/Team-1-BMusicTeachers-backend",
+                description: "Backend del progetto finale Boolean, in cui ho usato Laravel, Blade e MySQL.",
+                thumbnail: laravelApi,
+            },
+            {
+                title: "BMusicTeachers - Frontend",
+                githubLink: "https://github.com/marcocampisi/Team-1-BMusicTeachers-frontend",
+                description: "Frontend del progetto finale Boolean, realizzato in Vue.",
+                thumbnail: laravelApi,
+            },
+            {
+                title: "Boolflix",
+                githubLink: "https://github.com/marcocampisi/vite-boolflix",
+                description: "Progetto frontend in Vue che replica il funzionamento della web-app di Netflix.",
+                thumbnail: boolflix,
+            },
+            {
                 title: "Laravel Boolfolio",
                 githubLink: "https://github.com/marcocampisi/laravel-api",
                 description: "Webapp che permette di gestire un portfolio di progetti tramite una dashboard.",
                 thumbnail: laravelApi,
             },
             {
-                title: "Boolflix",
-                githubLink: "https://github.com/marcocampisi/vite-boolflix",
-                description: "Progetto frontend in Vue + Vite che replica il funzionamento della web-app di Netflix.",
-                thumbnail: boolflix,
-            },
-            {
-                title: "Portfolio",
-                githubLink: "https://github.com/marcocampisi/marcocampisi.github.io",
-                description: "Il codice di questo portfolio, scritto in React.",
-                thumbnail: portfolio,
-            },
-            {
                 title: "Progetto midterm",
                 githubLink: "https://github.com/marcocampisi/proj-html-vuejs",
-                description: "Progetto realizzato alla fine della prima metà del corso, frontend interamente in Vue + Vite.",
+                description: "Progetto realizzato alla fine della prima metà del corso, frontend interamente in Vue.",
                 thumbnail: midterm,
             },
             {
                 title: "Yu-Gi-Oh",
                 githubLink: "https://github.com/marcocampisi/vite-yu-gi-oh",
-                description: "Progetto frontend in Vue + Vite che visualizza un database di carte Yu-Gi-Oh.",
+                description: "Progetto frontend in Vue che visualizza un database di carte Yu-Gi-Oh.",
                 thumbnail: viteYugioh,
             },
             {
