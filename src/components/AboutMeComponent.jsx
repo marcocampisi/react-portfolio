@@ -1,4 +1,4 @@
-import myPhoto from "../assets/me.jpg";
+import myPhoto from "../assets/me.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
@@ -15,8 +15,7 @@ function AboutMe() {
                 <p className='text-lg px-6'>
                     Mi chiamo Marco Campisi, ho 21 anni e sono nato e cresciuto in Sicilia. Amo da sempre l&apos;informatica e la tecnologia in generale, scoprire nuovi modi di realizzare
                     le mie idee e svilupparne di nuove. Il mio campo è lo sviluppo web, <strong>frontend </strong>
-                    e <strong>backend</strong>. Conosco anche <strong>Python</strong> ed ho dimestichezza con i sistemi
-                    informatici in generale.
+                    e <strong>backend</strong>. Le mie passioni, oltre all&apos; informatica, sono anche la musica e il cinema.
                 </p>
             </div>
             <div className='w-full flex justify-center mb-10'>

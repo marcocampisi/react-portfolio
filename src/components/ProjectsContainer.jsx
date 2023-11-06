@@ -21,7 +21,7 @@ function Projects({ title, githubLink, description, thumbnail }) {
             <div>
                 <h2 className='text-2xl font-bold mb-2'>{title}</h2>
                 <a href={githubLink} className="group relative">
-                    <img src={thumbnail} alt="" className="my-4 h-[150px] w-full object-cover hover:scale-105 hover:grayscale transition cursor-pointer"/>
+                    <img src={thumbnail} alt="" className="my-4 h-60 w-full object-cover hover:scale-105 hover:grayscale transition cursor-pointer"/>
                 </a>
                 <p>{description}</p>
             </div>

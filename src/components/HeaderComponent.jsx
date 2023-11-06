@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import myPhoto from '../assets/me.jpg';
+import myPhoto from '../assets/me.png';
 
 function HeaderComponent() {
     const [isScrolled, setIsScrolled] = useState(false);
