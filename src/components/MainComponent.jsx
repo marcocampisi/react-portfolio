@@ -22,6 +22,7 @@ import boolflix from '../assets/vite-boolflix.png';
 import viteYugioh from '../assets/vite-yu-gi-oh.png';
 import laravelDcComics from '../assets/laravel-dc-comics.png';
 import midterm from '../assets/proj-html-vuejs.png';
+import portfolio from '../assets/portfolio.png';
 
 
 class MainComponent extends React.Component {
@@ -53,13 +54,13 @@ class MainComponent extends React.Component {
                 title: "BMusicTeachers - Backend",
                 githubLink: "https://github.com/marcocampisi/Team-1-BMusicTeachers-backend",
                 description: "Backend del progetto finale Boolean, in cui ho usato Laravel, Blade e MySQL.",
-                thumbnail: laravelApi,
+                thumbnail: bMusicTeachersBackend,
             },
             {
                 title: "BMusicTeachers - Frontend",
                 githubLink: "https://github.com/marcocampisi/Team-1-BMusicTeachers-frontend",
                 description: "Frontend del progetto finale Boolean, realizzato in Vue.",
-                thumbnail: laravelApi,
+                thumbnail: bMusicTeachersFrontend,
             },
             {
                 title: "Boolflix",
@@ -72,6 +73,12 @@ class MainComponent extends React.Component {
                 githubLink: "https://github.com/marcocampisi/laravel-api",
                 description: "Webapp che permette di gestire un portfolio di progetti tramite una dashboard.",
                 thumbnail: laravelApi,
+            },
+            {
+                title: "Portfolio",
+                githubLink: "https://github.com/marcocampisi/marcocampisi.github.io",
+                description: "Il codice di questo portfolio, scritto in React.",
+                thumbnail: portfolio,
             },
             {
                 title: "Progetto midterm",
@@ -90,6 +97,12 @@ class MainComponent extends React.Component {
                 githubLink: "https://github.com/marcocampisi/laravel-dc-comics",
                 description: "Progetto Laravel con frontend in Blade che permette di effettuare operazioni CRUD su un DB di fumetti.",
                 thumbnail: laravelDcComics,
+            },
+            {
+                title: "Campo Minato",
+                githubLink: "https://github.com/marcocampisi/js-campominato-dom",
+                description: "Un classico gioco Campo Minato realizzato con JavaScript.",
+                thumbnail: campoMinato,
             },
         ];
 
