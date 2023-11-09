@@ -1,3 +1,7 @@
+/* Google Fonts */
+@import 'fonts.css';
+
+/* Tailwind */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
