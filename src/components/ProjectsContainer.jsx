@@ -1,4 +1,6 @@
 /* eslint-disable react/prop-types */
+import Image from 'react-image';
+
 function ProjectsContainer({ projects }) {
     return (
         <div className='container mx-auto mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
@@ -8,7 +10,7 @@ function ProjectsContainer({ projects }) {
                     title={project.title}
                     githubLink={project.githubLink}
                     description={project.description}
-                    thumbnail={project.thumbnail}
+                    thumbnail={<Image src={project.thumbnail} alt="" />}
                 />
             ))}
         </div>
@@ -21,7 +23,7 @@ function Projects({ title, githubLink, description, thumbnail }) {
             <div>
                 <h2 className='text-2xl font-bold mb-2'>{title}</h2>
                 <a href={githubLink} className="group relative">
-                    <img src={thumbnail} alt="" className="my-4 h-60 w-full object-cover hover:scale-105 hover:grayscale transition cursor-pointer"/>
+                    <Image src={thumbnail} alt="" className="my-4 h-60 w-full object-cover hover:scale-105 hover:grayscale transition cursor-pointer"/>
                 </a>
                 <p>{description}</p>
             </div>
