@@ -22,7 +22,7 @@ import boolflix from '../assets/vite-boolflix.png';
 import viteYugioh from '../assets/vite-yu-gi-oh.png';
 import laravelDcComics from '../assets/laravel-dc-comics.png';
 import midterm from '../assets/proj-html-vuejs.png';
-import portfolio from '../assets/portfolio.png';
+import portfolio from '../assets/new-portfolio.png';
 import bMusicTeachersBackend from '../assets/bmusic-backend.png';
 import bMusicTeachersFrontend from '../assets/bmusic-frontend.png';
 import campoMinato from '../assets/campominato.png';
