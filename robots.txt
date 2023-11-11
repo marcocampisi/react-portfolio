@@ -1,4 +1,4 @@
-Sitemap: https://marcocampisi.github.io/sitemap.xml
+Sitemap: https://portofolio.marcocampisi.com/sitemap.xml
 
 User-agent: *
 Disallow:
