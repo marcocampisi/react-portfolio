@@ -1,13 +1,14 @@
 import myPhoto from "../assets/me.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { Img } from "react-image";
 
 function AboutMe() {
     return (
         <>
             <h2 className='text-3xl font-bold mb-4'>Chi sono</h2>
             <div className='flex flex-col md:flex-row items-center '>
-                <img
+                <Img
                     src={myPhoto}
                     alt=''
                     className='rounded-full h-52 mx-auto my-10'
