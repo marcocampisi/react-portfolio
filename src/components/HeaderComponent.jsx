@@ -23,7 +23,7 @@ function HeaderComponent() {
     }, []);
 
     return (
-        <div className={`sticky top-0 w-full bg-transparent ${isScrolled ? "bg-opacity-80 backdrop-blur" : ""}`}>
+        <div className={`sticky top-0 w-full bg-transparent z-50 ${isScrolled ? "bg-opacity-80 backdrop-blur" : ""}`}>
             <header className="flex items-center justify-between p-4 relative">
                 <div className='flex items-center'>
                     <Img src={myPhoto} alt='Logo' className='h-8 w-8 mr-2 rounded-full' />

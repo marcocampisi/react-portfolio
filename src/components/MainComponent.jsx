@@ -16,7 +16,6 @@ import { tailwindCssIcon } from "../assets/tailwindCssIcon";
 import SkillComponent from './SkillComponent';
 import ProjectsContainer from './ProjectsContainer';
 import AboutMe from './AboutMeComponent';
-import Contacts from './ContactComponent';
 import laravelApi from '../assets/laravel-api.png';
 import boolflix from '../assets/vite-boolflix.png';
 import viteYugioh from '../assets/vite-yu-gi-oh.png';
@@ -141,7 +140,6 @@ class MainComponent extends React.Component {
                     </h2>
                     <ProjectsContainer projects={projectsList} />
                 </div>
-                <Contacts />
             </main>
         );
     }
