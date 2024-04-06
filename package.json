@@ -2,7 +2,7 @@
   "name": "marcocampisi.github.io",
   "private": true,
   "version": "0.1.0",
-  "homepage": "https://portfolio.marcocampisi.com",
+  "homepage": "https://marcocampisi.github.io",
   "type": "module",
   "scripts": {
     "dev": "vite",
