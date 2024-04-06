@@ -104,16 +104,16 @@ class MainComponent extends React.Component {
                     <h2 className='text-4xl font-semibold mx-auto my-4'>
                         Le tecnologie che uso
                     </h2>
-                    <div className='w-full flex justify-center'>
-                        <ul className='flex flex-wrap justify-center'>
+                    <div className='w-full flex justify-center mt-8'>
+                        <div className='grid grid-cols-3 md:grid-cols-6 gap-8'>
                             {skillsList}
-                        </ul>
+                        </div>
                     </div>
                 </div>
-                
+
                 <div className="flex flex-col w-full my-10 px-5">
                     <h2 className="text-4xl font-semibold mx-auto my-4">
-                        I miei progetti
+                    I miei progetti
                     </h2>
                     <ProjectsContainer projects={projectsList} />
                 </div>

@@ -13,10 +13,10 @@ function AboutMe() {
                     alt=''
                     className='h-52 mx-auto my-10'
                 />
-                <p className='text-lg px-6'>
-                    Amo da sempre l&apos;informatica e la tecnologia in generale, scoprire nuovi modi di realizzare
-                    le mie idee e svilupparne di nuove. Il mio campo è lo sviluppo web, <strong>frontend </strong>
-                    e <strong>backend</strong>. Le mie passioni, oltre all&apos; informatica, sono anche la musica e il cinema.
+                <p className='text-lg px-6 text-justify'>
+                    Appassionato di informatica e tecnologia in generale, mi piace scoprire nuovi modi di realizzare
+                    le mie idee. Il mio settore principale è lo sviluppo web. Al di là del digitale, trovo ispirazione
+                    nella musica e nel cinema. Se hai bisogno di contattarmi, trovi il mio LinkedIn qui sotto.
                 </p>
             </div>
             <div className='w-full flex justify-center mb-10'>

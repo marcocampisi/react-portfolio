@@ -3,7 +3,7 @@ import {Img} from 'react-image';
 
 function ProjectsContainer({ projects }) {
     return (
-        <div className='container w-2/3 mx-auto mt-6 grid grid-cols-1 md:grid-cols-2 gap-6'>
+        <div className='container sm:w-2/3 mx-auto mt-6 grid grid-cols-1 md:grid-cols-2 gap-6'>
             {projects.map((project) => (
                 <Projects
                     key={project.title}
