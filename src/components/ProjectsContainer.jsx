@@ -20,9 +20,8 @@ function Projects({ title, githubLink, description, thumbnail }) {
     return (
         <div className='shadow-md p-6 border-[1px] border-black dark:border-white flex flex-col justify-between h-full text-center'>
             <div>
-                <h2 className='text-2xl font-bold mb-2'>{title}</h2>
                 <a href={githubLink} className="group relative">
-                    <Img src={thumbnail} alt="" className="my-4 h-60 w-full object-cover hover:scale-105 hover:grayscale transition cursor-pointer"/>
+                    <h2 className='text-2xl font-bold mb-2'>{title}</h2>
                 </a>
                 <p>{description}</p>
             </div>
