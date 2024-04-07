@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-import {Img} from 'react-image';
 
 function ProjectsContainer({ projects }) {
     return (
@@ -16,12 +15,12 @@ function ProjectsContainer({ projects }) {
     );
 }
 
-function Projects({ title, githubLink, description, thumbnail }) {
+function Projects({ title, githubLink, description }) {
     return (
-        <div className='shadow-md p-6 border-[1px] border-black dark:border-white flex flex-col justify-between h-full text-center'>
+        <div className='shadow-md p-6 border-[1px] border-black dark:border-white flex flex-col justify-between h-full text-center rounded-md'>
             <div>
                 <a href={githubLink} className="group relative">
-                    <h2 className='text-2xl font-bold mb-2'>{title}</h2>
+                    <h2 className='text-2xl font-bold mb-2 hover:underline underline-offset-4'>{title}</h2>
                 </a>
                 <p>{description}</p>
             </div>

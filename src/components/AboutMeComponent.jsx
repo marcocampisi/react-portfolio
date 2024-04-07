@@ -11,7 +11,7 @@ function AboutMe() {
                 <Img
                     src={myPhoto}
                     alt=''
-                    className='h-52 mx-auto my-10'
+                    className='rounded-md h-52 mx-auto my-10'
                 />
                 <p className='text-lg px-6 text-justify'>
                     Appassionato di informatica e tecnologia in generale, mi piace scoprire nuovi modi di realizzare
